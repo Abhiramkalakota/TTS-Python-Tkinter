@@ -80,7 +80,7 @@ root.iconphoto(False, icon_photo)
 # Top Frame
 Top_frame = Frame(root, bg="white", width=900, height=105)
 Top_frame.place(x=0, y=0)
-Label(Top_frame,text="TEXT TO SPEECH",font="arial 20 bold",bg="white",fg="black").place(x=100,y=30)
+Label(Top_frame,text="TEXT TO SPEECH - TTS",font="arial 20 bold",bg="white",fg="black").place(x=100,y=30)
 # Logo
 logo_image = Image.open("C:/Users/koush/Downloads/vecteezy_gold-microphone-broadcast-or-karaoke-3d-render-element_9335954.png")
 logo_photo = ImageTk.PhotoImage(logo_image.resize((80, 80)))
