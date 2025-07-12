@@ -6,6 +6,11 @@ It’s a simple **Text-to-Speech (TTS)** application that converts input text to
 
 I followed a YouTube tutorial to build and understand the basic structure of GUI apps in Python.
 
+## 🔍 Preview
+<img width="1343" height="729" alt="TTS_Screenshots" src="https://github.com/user-attachments/assets/aadaf976-e0bb-4c39-9b1e-9047e30d4fc7" />
+
+
+
 ## 🔧 Features
 - GUI made with Tkinter
 - Text-to-Speech using `pyttsx3`
