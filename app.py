@@ -73,7 +73,7 @@ def download() :
             setvoice()
 
 # Icon
-icon_image = Image.open("C:/Users/koush/Downloads/vecteezy_3d-megaphone-illustration_11048550.png")
+icon_image = Image.open("TTS-Python-Tkinter/vecteezy_3d-megaphone-illustration_11048550.png")
 icon_photo = ImageTk.PhotoImage(icon_image.resize((32, 32)))
 root.iconphoto(False, icon_photo)
 
@@ -82,7 +82,7 @@ Top_frame = Frame(root, bg="white", width=900, height=105)
 Top_frame.place(x=0, y=0)
 Label(Top_frame,text="TEXT TO SPEECH - TTS",font="arial 20 bold",bg="white",fg="black").place(x=100,y=30)
 # Logo
-logo_image = Image.open("C:/Users/koush/Downloads/vecteezy_gold-microphone-broadcast-or-karaoke-3d-render-element_9335954.png")
+logo_image = Image.open("TTS-Python-Tkinter/vecteezy_gold-microphone-broadcast-or-karaoke-3d-render-element_9335954.png")
 logo_photo = ImageTk.PhotoImage(logo_image.resize((80, 80)))
 logo_label = Label(Top_frame, image=logo_photo, bg="white")
 logo_label.image = logo_photo
